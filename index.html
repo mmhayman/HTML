@@ -1,49 +1,58 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html >
 <head>
-	<title>June HTML CSS Demo</title>
+  <meta charset="UTF-8">
+  <title>Michel</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
-	<style> 
+  
+</head>
 
-	p {
-		background-color: blue;
+<body>
+  <title> Lab 19</title>
 
-	}
-	</style>
-	</head>
-	<body> 
-	<p> This is a test</p>
-	<br>
-	<p> This is also a test</p>
+<body>
+<br>
 
+<br>
+<h1> Welcome to Michel's Market </h1>
+  
+  <h2> Please select the items you would like to put in your cart </h2>
+  
+  <p>
 
-	<form>
-	First Name: 
-	<input type = "text" name = "fristName" value = "First Name">
-	<br>
-	Last Name:
-	<input type = "text" name = "lastName" value = "Last Name" >
-	<br>
-	<input type = "submit" value = "Push me">
-	</form>
+ Yogurt- $1.00
+    <button id = "Yogurt" onlick = "addYogurt()"type= "button"> Add to cart</button>
+<br> 
+    
+ La Croix- $2.99
+      <button id = "La Croix" onlick = "addLaCroix()"type= "button"> Add to cart</button>
+  <br> 
+    
+ Grapefruit- $3.00
+  <button id = "Grapefruit" onlick = "addGrapefruit()"type= "button"> Add to cart</button> 
+  <br>
+   
+Red Pepper- $.99
+  <button id = "Red Pepper" onlick = "addRedPepper()"type= "button"> Add to cart</button> 
+  <br> 
+  
+French Vanilla Creamer- $3.99
+  <button id = "Creamer" onlick = "addCreamer()"type= "button"> Add to cart</button> 
+  <br> 
+    
+ <button id = "Checkout" onlick = "checkout()"> Check Out</button>
+    
+      </p>
+  
 
-	<form>
-	<input type = "radio" name= "mood" value = "happy">Happy
-	<br>
-	<input type = "radio" name= "mood" value = "sad" checked>Sad
-	<br>
-	<input type = "radio" name= "mood" value = "indifferent">Indifferent
-	<br>
-		<input type = "submit" value = "Submit">
+  
+</body>
+  
+    <script src="js/index.js"></script>
 
-	</form>
-	<form>
-	<select>
-	<option value = "volvo"> Volvo</option>
-	<option value = "saab"> Saab</option>
-	<option value = "mercedes"> Mercedes</option>
-	<option value = "audi"> Audi</option>
-	</select>
-	</form>
-	</body>
+</body>
 </html>
